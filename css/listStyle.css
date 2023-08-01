@@ -1,0 +1,113 @@
+.anime {
+    margin: 2%;
+    margin-top: 5%;
+    display: inline-flex;
+
+
+}
+
+.listAnime {
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+}
+
+
+#form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    height: 4vh;
+}
+
+#search {
+    flex: 4;
+    background-color: #FFE6A7;
+    border-radius: 0%;
+    border-color: #ee9b00;
+    border-style: solid;
+
+}
+
+#search:focus {
+
+    background-color: #FFE6A7;
+}
+
+
+#form > select {
+    background-color: #FFE6A7;
+    border-style: solid;
+    border-radius: 0%;
+    border-color: #ee9b00;
+}
+
+
+#search-button {
+    flex: 0.20;
+    background: #99582A;
+    color: #e6e6e6;
+    border-bottom-right-radius: 15%;
+    border-top-right-radius: 15%;
+    border-color: #e6e6e6;
+    border-style: solid;
+}
+
+
+.anime > a > img {
+    margin-top: 2.5%;
+    width: 15vmax;
+    height: 22vmax;
+    max-height: fit-content;
+    object-fit: cover;
+
+}
+
+.anime > a {
+    width: 15vmax;
+    height: 22vmax;
+    text-decoration: none;
+}
+
+.notFound {
+    font-size: large;
+    color: #e6e6e6;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#fromTri {
+    scale: 1.10;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: -2.5%;
+    margin-left: 70%;
+}
+
+#fromTri > select {
+    background-color: #FFE6A7;
+    border-style: solid;
+    border-radius: 0%;
+    border-color: #ee9b00;
+}
+
+.tableCopicat {
+    width: 80%;
+    margin: 3% auto;
+    background: #FFE6A7;
+    border-spacing: 1vmax;
+    border-collapse: collapse;
+}
+
+.rowCopicat {
+    padding-top: 0.25%;
+}
+
+.rowCopicat > td {
+    margin-top: 1%;
+    border-bottom: #6f1d1b 2px solid;
+}

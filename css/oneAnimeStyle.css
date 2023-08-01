@@ -1,0 +1,113 @@
+.oneAnime {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5%;
+}
+
+.oneAnime > img {
+    width: 30vmax;
+    height: 44vmax;
+    margin-right: 5%;
+}
+
+.title {
+    flex: 1;
+    color: #432818;
+    margin-bottom: 2%;
+    font-size: x-large;
+}
+
+.info {
+    background: #FFE6A7;
+    padding: 3%;
+}
+
+.info > h3 {
+    margin-top: 2%;
+    color: #432818;
+    margin-bottom: 1%;
+}
+
+.info > a {
+    color: #FFE6A7;
+    border: #ee9b00 1px solid;
+    background: #432818;
+    padding: 0.5%;
+    margin-right: 1%;
+    text-decoration-line: none;
+}
+
+.add {
+    color: #FFE6A7;
+    background: #432818;
+    border-radius: 100%;
+    border: 1px #432818 solid;
+    scale: 1.5;
+    width: 1.5vmax;
+    height: 1.5vmax;
+    transition: all ease 1s;
+}
+
+.button {
+    border-radius: 100%;
+    height: fit-content;
+}
+
+.add:hover {
+    -webkit-box-shadow: 0px 0px 26px 20px #ee9b00;
+    box-shadow: 0px 0px 26px 20px #ee9b00;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.info > h4 {
+    color: #432818;
+    margin-bottom: 1.5%;
+    margin-top: 2.5%;
+}
+
+.info > form {
+    border: #6f1d1b dashed 3px;
+    padding: 1.5%;
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+}
+
+#formNote > select {
+    flex: auto;
+    background-color: #FFE6A7;
+    border-style: solid;
+    border-radius: 0%;
+    border-color: #ee9b00;
+}
+
+#formNote > label {
+    margin-right: 1%;
+    color: #432818;
+}
+
+#formNote > input {
+    background: #99582A;
+    color: #e6e6e6;
+    border-style: solid;
+    border-color: #99582a;
+    font-weight: bolder;
+    flex: 1;
+}
+
+.errorOne {
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+
+.info > p > strong {
+    color: #432818;
+    background: #ee9b00;
+    border: #432818 3px solid;
+    padding: 0.5%;
+    margin-bottom: 2%;
+}
